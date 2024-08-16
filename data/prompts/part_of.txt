@@ -1,0 +1,17 @@
+In your responses, do not include more than one thing in each line and be succinct where possible. Do not include the original object name. Only answer this question three times.
+1. List visual elements or parts of a "tench, Tinca tinca":
+- scales
+- shiny
+- eyes
+- fins
+- gills
+
+2. List visual elements or parts of a "beer glass":
+- beer
+- glass
+- handle
+- reflective
+- brown
+- transparent
+
+3. List visual elements or parts of a "{target}":

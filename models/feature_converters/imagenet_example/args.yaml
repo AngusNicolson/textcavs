@@ -1,0 +1,10 @@
+batch_size: 256
+clip_model: ViT-B/16
+dataset: imagenet
+epochs: 20
+exp_name: imagenet_example
+layer: avgpool
+model: null
+no_center_crop: false
+out_dir: models/feature_converters
+text_path: ./data/text_concepts/tulu_4bit_00.txt

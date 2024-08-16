@@ -1,0 +1,14 @@
+In your responses, do not include more than one thing in each line and be succinct where possible. Do not include the original object name. Only answer this question three times.
+1. Give words similar to "tench, Tinca tinca":
+- fish
+- carp
+- goldfish
+- salmon
+
+2. Give words similar to "beer glass":
+- wine glass
+- alcohol
+- beer pong
+- cider
+
+3. Give words similar to "{target}":

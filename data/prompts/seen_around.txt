@@ -1,0 +1,20 @@
+In your responses, do not include more than one thing in each line and be succinct where possible. Do not include the original object name. Only answer this question three times.
+1. List the things most commonly seen around a "tench, Tinca tinca":
+- a pond
+- fish
+- a net
+- a rod
+- a reel
+- a hook
+- bait
+
+2. List the things most commonly seen around a "beer glass":
+- beer
+- a bar
+- a coaster
+- a napkin
+- a straw
+- a lime
+- a person
+
+3. List the things most commonly seen around a "{target}":

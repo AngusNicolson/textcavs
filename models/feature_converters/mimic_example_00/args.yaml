@@ -1,0 +1,12 @@
+batch_size: 256
+clip_model: BiomedCLIP
+dataset: mimic-cxr
+epochs: 20
+exp_name: mimic_example_00
+forwards_relu: false
+layer: avgpool
+mlp: false
+model: ./models/example_mimic_model.ckpt
+no_center_crop: true
+out_dir: models/feature_converters
+text_path: data/text_concepts/mimic_unfiltered_lines.txt
