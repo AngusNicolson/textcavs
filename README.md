@@ -83,7 +83,9 @@ Download the ImageNet dataset from
 [image-net.org](https://www.image-net.org/download-images.php)
 (`ILSVRC2012_devkit_t12.tar.gz`) and place it in `data/ImageNet`.
 
-Then train the linear transformations `h` and `g`:
+Then train the linear transformations `h` and `g`
+(NB: this will take a while the first time you run it as it will need to
+create all the embeddings):
 ```bash
 python train_feature_converter.py
 ```
