@@ -6,11 +6,13 @@ import torch
 import torch.nn as nn
 from torch.autograd import grad
 from torchvision import models
+from torchvision.models.resnet import ResNet50_Weights
 import torchvision.transforms as T
 import numpy as np
 import clip
 from open_clip import create_model_from_pretrained, get_tokenizer
 from transformers import AutoModel, AutoTokenizer
+
 
 from textcavs.utils import IMAGENET_MEAN, IMAGENET_STD
 
@@ -107,7 +109,7 @@ def to_rgb(img):
 
 def get_model(bottlenecks, model_path=None, class_names=None, center_crop=True):
     layer = bottlenecks[0]
-    model = models.resnet50(pretrained=True).eval()
+    model = models.resnet50(weights=ResNet50_Weights.IMAGENET1K_V1).eval()
     if model_path is not None:
         state_dict = torch.load(model_path)
         if "state_dict" in state_dict.keys():
