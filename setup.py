@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.0.1"
-DESCRIPTION = "Generate textual explanations for a target NN"
+VERSION = "1.0.0"
+DESCRIPTION = "Generate text explanations for a target NN"
 
 setup(
     name="textcavs",
